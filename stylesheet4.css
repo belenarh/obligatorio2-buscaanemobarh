@@ -1,0 +1,294 @@
+#troll {
+    width: 33%;
+    height: auto;
+    position: absolute;
+    animation-name: troll;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes troll {
+    0% {
+        left: 0px;
+        top: 0px;
+    }
+
+    25% {
+        left: 150px;
+        top: 0px;
+    }
+
+    50% {
+        left: 150px;
+        top: 150px;
+    }
+
+    75% {
+        left: 0px;
+        top: 150px;
+    }
+
+    100% {
+        left: 0%;
+        top: 0%;
+    }
+}
+
+.contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    align-content: space-around;
+}
+
+body {
+    margin-top: 15%;
+}
+
+#text {
+    font-size: 145%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 45%;
+    position: absolute;
+    color: #ff5722;;
+}
+
+#jaja {
+    font-size: 126%;
+    animation-name: text;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes text {
+    from {
+        rotate: 0deg;
+    }
+
+    to {
+        rotate: 360deg;
+    }
+}
+
+#abuela1 {
+    position: absolute;
+    width: 206px;
+    margin-left: -94%;
+    margin-top: -16%;
+}
+
+#aconrazon {
+    position: absolute;
+    width: 306px;
+    margin-left: 2%;
+    margin-top: 6%;
+}
+
+#ayuda {
+    position: absolute;
+    width: 231px;
+    margin-left: 1%;
+    margin-top: -3%;
+}
+
+#barbie1 {
+    position: absolute;
+    width: 240px;
+    margin-left: 82%;
+    margin-top: -16%;
+}
+
+#byevibras {
+    position: absolute;
+    width: 233px;
+    margin-left: 78%;
+    margin-top: 17%;
+}
+
+#dqtries {
+    position: absolute;
+    width: 320px;
+    margin-left: 47%;
+    margin-top: 10%;
+}
+
+#elqlodice {
+    position: absolute;
+    width: 277px;
+    margin-top: 80%;
+    margin-left: -77%;
+}
+
+#dinamita {
+    position: absolute;
+    width: 303px;
+    margin-left: 76%;
+    margin-top: 48%;
+}
+
+#gru {
+    position: absolute;
+    width: 230px;
+    margin-left: -83%;
+    margin-top: 44%;
+}
+
+#hsmeme {
+    position: absolute;
+    width: 265px;
+    margin-top: 63%;
+}
+
+#sisoy {
+    position: absolute;
+    width: 250px;
+    margin-top: 77%;
+    margin-left: 73%;
+}
+
+#lamentable {
+    position: absolute;
+    width: 222px;
+    margin-left: 41%;
+    margin-top: 78%;
+}
+
+#llorameme {
+    position: absolute;
+    width: 213px;
+    margin-left: -26%;
+    margin-top: 28%;
+}
+
+#maria1 {
+    position: absolute;
+    width: 193px;
+    margin-left: -89%;
+    margin-top: 12%;
+}
+
+#wtfmeme {
+    position: absolute;
+    width: 236px;
+    margin-left: 60%;
+    margin-top: -79%;
+}
+
+#meqvlc {
+    position: absolute;
+    margin-top: 69%;
+    margin-left: -546px;
+    width: 236px;
+}
+
+#niall2 {
+    position: absolute;
+    width: 230px;
+    margin-top: 29%;
+    margin-left: 6%;
+}
+
+#pablo1 {
+    position: absolute;
+    width: 256px;
+    margin-top: -25%;
+    margin-left: -61%;
+}
+
+#pensando {
+    position: absolute;
+    width: 232px;
+    margin-left: 49%;
+    margin-top: -21%;
+}
+
+#pepe1 {
+    position: absolute;
+    width: 222px;
+    margin-left: 36%;
+    margin-top: 51%;
+}
+
+#pepe2 {
+    position: absolute;
+    width: 228px;
+    margin-left: -8%;
+    margin-top: -17%;
+}
+
+#perro1 {
+    position: absolute;
+    width: 180px;
+    margin-top: 41%;
+    margin-left: -27%;
+}
+
+#perro2 {
+    position: absolute;
+    width: 111px;
+    margin-top: 36%;
+    margin-left: 662px;
+}
+
+#qintenso {
+    position: absolute;
+    width: 298px;
+    margin-top: -20%;
+    margin-left: -24%;
+}
+
+#qtepapi {
+    position: absolute;
+    width: 212px;
+    margin-top: -1%;
+    margin-left: -33%;
+}
+
+#stira {
+    position: absolute;
+    width: 158px;
+    margin-top: 75%;
+    margin-left: -90%;
+}
+
+#shrek {
+    position: absolute;
+    width: 128px;
+    margin-left: 32%;
+    margin-top: 33%;
+}
+
+#flow {
+    position: absolute;
+    width: 178px;
+    margin-left: 18%;
+    margin-top: 72%;
+}
+
+#uniqua1 {
+    position: absolute;
+    width: 160px;
+    margin-top: 65%;
+    margin-left: -17%;
+}
+
+#pelao {
+    position: absolute;
+    width: 146px;
+    margin-left: 39%;
+    margin-top: 30%;
+}
+
+#vatpia {
+    position: absolute;
+    width: 168px;
+    margin-top: -21%;
+    margin-left: -6%;
+}
+
+#yetut {
+    position: absolute;
+    width: 185px;
+}

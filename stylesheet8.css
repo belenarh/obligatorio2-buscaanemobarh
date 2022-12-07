@@ -1,0 +1,35 @@
+#nemo{
+    margin-top: 8%;
+    width: 28%;
+    position: relative;
+    animation-name: nemo;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;}
+    
+@keyframes nemo {
+    0% {
+        left: 0%;
+        top: 0%;
+    }
+
+    100% {
+        left: 74%;
+        top: 0%;
+    }
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 8%;
+    margin-left: -8%;
+}
+
+#musica{
+    margin-top: -36%;
+    position: fixed;
+}

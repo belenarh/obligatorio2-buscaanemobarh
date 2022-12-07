@@ -1,0 +1,25 @@
+
+body {
+    background-color: black !important;
+}
+
+h1 h2 p {
+    color: yellow !important;
+    font-style: bold !important;
+}
+
+img {
+     filter: blur(100%) !important;
+}
+
+img :hover{
+     filter:blur(0%) !important;
+}
+
+img {
+    filter: blur(4px) !important;
+}
+
+img:hover{
+    filter:blur(0px) !important;
+}

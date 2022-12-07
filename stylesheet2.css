@@ -1,0 +1,44 @@
+img {
+    width: 144%;
+    margin-left: -17%;
+    margin-top: 12%;
+    position: relative;
+    animation-name: img;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes img {
+    0% {
+        left: 0px;
+        top: 0px;
+    }
+
+    25% {
+        left: 200px;
+        top: 0px;
+    }
+
+    50% {
+        left: 200px;
+        top: 200px;
+    }
+
+    75% {
+        left: 0px;
+        top: 200px;
+    }
+
+    100% {
+        left: 0px;
+        top: 0px;
+    }
+}
+
+.contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-evenly;
+    justify-content: center;
+    align-items: center;
+}
